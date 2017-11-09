@@ -1,0 +1,86 @@
+@font-face {
+    font-family: kh;
+    src: url(font/JimNightshade-Regular.ttf);
+}
+
+html {
+    font-family: kh;
+    font-size: 1.5em;
+    background-image: url(images/Blackandwhitebackground.jpg);
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+}
+
+.NewGame {
+    background-color: lightgrey;
+    border: 2px solid black;
+    margin-left: 1em;
+}
+
+.CurrentScore {
+    background-color: lightgrey;
+}
+
+.PlayerMove {
+    background-color: lightgrey;
+
+}
+
+.choice {
+    background-color: lightgrey;
+}
+
+.NewGame, .CurrentScore, .PlayerMove, .choice {
+    padding: .5em;
+    margin-right : 2em;
+    margin-left 2em;
+    border: 2px solid black;
+    border-radius: 15px;
+    float: left;
+    width: 
+}
+
+.NewGame h2, .CurrentScore h2, .PlayerMove h2, .choice h2 {
+    text-align: center;
+}
+
+.gamearea {
+    background-image: url(images/kingdom_hearts_background_011.jpg);
+    padding: 3em; 
+    box-shadow: 10px black;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15em;
+}
+
+.keyblade {
+    margin-right: 1.5em;
+}
+
+img:hover {
+    transform:scale(1.25);
+}
+
+img:active {
+    transform:scale(0.85);
+}
+
+footer {
+    position: absolute;
+    bottom: -75%;
+    background-color:lightgray;
+    opacity: .80;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 5em;
+    border-radius: 10px;
+}
+footer p {
+    color: black;
+    font-weight: 900;
+}

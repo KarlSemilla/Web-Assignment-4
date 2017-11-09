@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>Keyblade Addition</title>
+        <h1>Keyblade Addition</h1>
+        <link rel="stylesheet" href="Assign3.css"/>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.0.min.js"></script>
+        <script src="Assign3.js"></script>
+    </head>
+    
+    <body>
+        <div class="NewGame">
+            <form action="http://ins.mtroyal.ca/~nkhemka/process.php" method="POST">
+                <h2>New Game?</h2>
+                <label>Player 1 Name: </label><input id="Player1" type="text" name="Player1" placeholder="Enter Player 1 Name"/>
+                <br/>
+                <label>Player 2 Name: </label><input id="Player2" type="text" name="Player2" placeholder="Enter Player 2 Name"/>
+                <br/>
+                <input type="submit" name="New Game!" id="button"/>
+            </form>
+        </div>
+        
+        <div class="CurrentScore">
+            <h2>Players' Score</h2>
+            <h3 id = player1name>Player 1: </h3>
+            <h3 id = player2name>Player 2: </h3>
+        </div>
+        
+        <div class="PlayerMove">
+            <h2>Player's move:</h2>
+            <h3>Sum to beat:</h3>
+        </div>
+        
+         <div class="choice">
+            <h2>Select your choice:</h2>
+            <input type="button" name="endgame" value="End Game"/>
+            <input type="button" name="endturn" value="End Turn"/>
+        </div>
+        
+        <div class="gamearea">
+            <div class="card0 keyblade"><img src="images/Card0.png" alt=""/></div>
+            <div class="card0 keyblade"><img src="images/Card0.png" alt=""/></div>
+            <div class="card1 keyblade"><img src="images/Card1.png" alt=""/></div>
+            <div class="card1 keyblade"><img src="images/Card1.png" alt=""/></div>
+            <div class="card2 keyblade"><img src="images/Card2.png" alt=""/></div>
+            <div class="card2 keyblade"><img src="images/Card2.png" alt=""/></div>
+            <div class="card3 keyblade"><img src="images/Card3.png" alt=""/></div>
+            <div class="card3 keyblade"><img src="images/Card3.png" alt=""/></div>
+            <div class="card4 keyblade"><img src="images/Card4.png" alt=""/></div>
+            <div class="card4 keyblade"><img src="images/Card4.png" alt=""/></div>  
+        </div>
+        
+        
+    </body>
+    
+    <footer>
+        <p>Developed & Stylized by Karl Semilla
+            <br/> COMP 2511 Assignment 3</p>
+    </footer>
+    
+</html>
